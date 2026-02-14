@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+  
+}
+
+main {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.bg-img {
+    background-image: url(./images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+.arrow {
+    position: absolute;
+    top: 320px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: -30px;
+}
+
+.center-img {
+    width: 100%;
+}
+
+.center-text {
+
+    text-align: center;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.header {
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.pic-circle {
+    border-radius: 50%;
+
+}
+
+.flex-bottom-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom-img {
+    width: 185px;
+}
+
+.position-relative {
+    position: relative;
+    display: inline-block;
+
+}
+
+.position-absolute {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding-inline: 30px;
+
+}
